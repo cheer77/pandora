@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/logo.svg" />
+    <title>Home</title>
+
+    <!-- Icomoon -->
+    <link
+      rel="stylesheet"
+      href="https://i.icomoon.io/public/a83f6fe7cf/Gulpstartproject20/style.css"
+    />
+
+    <!-- normalize -->
+    <link href="https://unpkg.com/@csstools/normalize.css" rel="stylesheet" />
+
+    <link href="./css/plugins-styles.css" type="text/css" rel="stylesheet" />
+
+    <link href="./css/tailwind.css" type="text/css" rel="stylesheet" />
+
+    <!--Swiper https://swiperjs.com/swiper-api -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link href="./css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="site">
+      <header class="header">
+        <div class="cont">
+          <div class="navbar">
+            <div class="navbar__block-user">
+              <div class="burger menu-toggle">
+                <span></span>
+              </div>
+
+              <a href="#" class="navbar__mob-user"><i class="icon-user"></i></a>
+            </div>
+
+            <a href="./index.html" class="logo">
+              <img src="./images/logo.svg" alt="" />
+            </a>
+
+            <div class="navbar__items-block">
+              <form class="navbar__search">
+                <label class="navbar__label">
+                  <i class="icon-search"></i>
+                  <input
+                    type="search"
+                    class="navbar__input"
+                    placeholder="cerca ..."
+                  />
+                </label>
+              </form>
+              <a href="#" class="navbar__item-search navbar__item"
+                ><i class="icon-search"></i
+              ></a>
+              <a href="#" class="navbar__item-geo navbar__item"
+                ><i class="icon-geo"></i
+              ></a>
+              <a href="#" class="navbar__item-user navbar__item"
+                ><i class="icon-user"></i
+              ></a>
+              <a href="#" class="navbar__item-bag navbar__item"
+                ><i class="icon-bag"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-close-wrapper"></div>
+
+      <main class="main" id="content">
+        <section class="content">
+          <div class="cont">
+            <div class="content__inner">
+              <div class="slider">
+                <div class="slider__box">
+                  <div class="slider__wrapper">
+                    <div class="slider__slide">
+                      <img src="./images/img1.jpg" alt="" />
+                    </div>
+                    <div class="slider__slide">
+                      <img src="./images/img2.jpg" alt="" />
+                    </div>
+                    <div class="slider__slide">
+                      <img src="./images/img3.jpg" alt="" />
+                    </div>
+                    <div class="slider__slide">
+                      <img src="./images/img4.jpg" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination"></div>
+
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div class="descr">
+                <div class="descr__box">
+                  <p class="descr__name">NOVITÀ | RISPARMIA 57€</p>
+
+                  <h1 class="descr__title">Set Bracciale Sogna in Grande</h1>
+
+                  <div class="descr__price-box">
+                    <p class="descr__price-old">€ 236,00</p>
+                    <p class="descr__price-new">€ 179,00</p>
+                  </div>
+                </div>
+
+                <p class="descr__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Integer malesuada nunc vel risus commodo viverra. Leo in vitae
+                  turpis massa sed elementum tempus egestas. Augue neque gravida
+                  in fermentum et sollicitudin ac. Aenean euismod elementum nisi
+                  quis eleifend quam adipiscing vitae proin. Massa massa
+                  ultricies mi quis hendrerit dolor magna eget est. Urna et
+                  pharetra pharetra massa massa ultricies mi.
+                </p>
+
+                <div class="descr__quiz quiz">
+                  <div class="quiz__steps-box">
+                    <p>Domanda</p>
+                    <div class="quiz__steps">
+                      <span class="quiz__step"></span>
+                      <span>/</span>
+                      <span class="quiz__steps-total"></span>
+                    </div>
+                  </div>
+
+                  <span class="quiz__questions"></span>
+
+                  <div class="quiz__btns">
+                    <a class="quiz__btn-yes btn">Sì</a>
+                    <a class="quiz__btn-no btn">No</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <a href="#" class="feed">
+          <p>feedback</p>
+        </a>
+      </main>
+    </div>
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script src="./js/plugins/jquery.ui.touch-punch.min.js"></script>
+
+    <!--Swiper https://swiperjs.com/swiper-api-->
+    <script src="./js/plugins/swiper-bundle.min.js"></script>
+
+    <script src="./js/plugins/scroll-lock.min.js"></script>
+
+    <!-- Container Query Polyfill -->
+    <script src="https://unpkg.com/cq-prolyfill@0.4.0/cq-prolyfill.min.js"></script>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
